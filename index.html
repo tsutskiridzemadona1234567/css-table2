@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        width: 1450px;
+    }
+    .submit{
+        background-color: #FFD43A;
+        width: 115;
+        height: 25px;
+        border-radius: 10px;
+    }
+    .Edit1{
+        background-color: #FFD43A;
+        height: 36px;
+        width: 115px;
+        border: 0;
+        margin-left: 50px;
+    }
+    .Edit2{
+        background-color: #FF0000;
+        height: 36px;;
+        width: 115px;
+        border: 0;
+        margin-left: 50px;
+    } 
+    .color{
+        color: red;
+        padding: 20px;
+    }
+    @font-face {
+        font-family: "chemi fonti" ;
+        src: url("./Inter-Regular.ttf");
+    }
+    table,th,td{
+          font-family: "chemi fonti";     
+    }  
+    table{
+        border-collapse: collapse;
+        width: 80%
+    }
+    td{
+        padding: 10px;
+    }
+    .color1{
+        background-color: #DADADA;
+    }
+    .tr1 th{
+        text-align: start;
+    }
+    .tr2 td{
+        padding: 0;
+    }
+    .tr2 td > input {
+        height: 40px;
+        outline: none;
+    }
+
+</style>
+<body>
+    
+    <h3>Search</h3>
+    <table>
+        <thead>
+            <tr class="tr1">
+                <th>ID</th>
+                <th>Title</th>
+                <th>Created at</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="tr2">
+                <td><input type="text" name="ID" placeholder="ID" style="width: 201px;"></td>
+                <td><input type="text"  name="Text" placeholder="Title" style="width: 593px;"></td>
+                <td><input type="text" placeholder="Created at" style="width: 201px;"></td>
+                <td><input class= "submit" type="submit" value="Search" style="width: 115px;"></td>
+            </tr>
+        </tbody>
+    </table>
+    <br>   
+    <br>
+    <br>
+    <div class="container">
+        <h3>News Table</h3>        
+        <table border="1">
+            <thead>
+            <tr class="color1">
+                <th>ID</th>
+                <th class="left">Title</th>
+                <th>Created at</th>
+                <th>action</th>
+                <th>action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Lorem Ipsum is simply dummy text of the printing and typesetting</td>
+                <td><color class="color">2021/12/01</td>
+                <td><button class="Edit1">Edit</button></td>
+                <td><button class="Edit2">Edit</button></td>                
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Lorem Ipsum is simply dummy text of the printing and typesetting</td>
+                <td><color class="color">2021/12/01</td>
+                <td><button class="Edit1">Edit</button></td>
+                <td><button class="Edit2">Edit</button></td> 
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Lorem Ipsum is simply dummy text of the printing and typesetting</td>
+                <td><color class="color">2021/12/01</td>
+                <td><button class="Edit1">Edit</button></td>
+                <td><button class="Edit2">Edit</button></td> 
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Lorem Ipsum is simply dummy text of the printing and typesetting</td>
+                <td><color class="color">2021/12/01</td>
+                <td><button class="Edit1">Edit</button></td>
+                <td><button class="Edit2">Edit</button></td> 
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Lorem Ipsum is simply dummy text of the printing and typesetting</td>
+                <td><color class="color">2021/12/01</td>
+                <td><button class="Edit1">Edit</button></td>
+                <td><button class="Edit2">Edit</button></td> 
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Lorem Ipsum is simply dummy text of the printing and typesetting</td>
+                <td><color class="color">2021/12/01</td>
+                <td><button class="Edit1">Edit</button></td>
+                <td><button class="Edit2">Edit</button></td> 
+             </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
